@@ -197,7 +197,7 @@
                 <div class="chart-wrap h260"><canvas id="clusterChart"></canvas></div>
             </div>
             <div class="card">
-                <div class="card-header"><h3 class="card-title">需給ギャップ — 読者は飢えているか？</h3><span class="card-note">PV÷記事数 = 需給比</span></div>
+                <div class="card-header"><h3 class="card-title">需給ギャップ — コンテンツ供給は足りているか？</h3><span class="card-note">PV÷記事数 = 需給比</span></div>
                 <div class="chart-wrap h260"><canvas id="demandSupplyChart"></canvas></div>
             </div>
         </div>
@@ -437,7 +437,7 @@ new Chart(document.getElementById('demandSupplyChart'), {
     },
     options: { responsive: true, maintainAspectRatio: false, indexAxis: 'y',
         plugins: { legend: { display: false } },
-        scales: { x: { grid: { color: '#f0f0f0' }, title: { display: true, text: '需給比（高い＝読者が飢えている）', font: { size: 10 } } }, y: { grid: { display: false } } }
+        scales: { x: { grid: { color: '#f0f0f0' }, title: { display: true, text: '需給比（高い＝コンテンツ供給が不足）', font: { size: 10 } } }, y: { grid: { display: false } } }
     }
 });
 
